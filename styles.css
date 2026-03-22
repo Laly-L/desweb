@@ -107,12 +107,171 @@ th, td {
 }
 
 th {
-    background-color: #2e4c82; /* cor de fundo para o cabeçalho */
+    background-color: #1e3c72; /* cor de fundo para o cabeçalho */
 }
 
-.box-amarelo {
+.equipes {
+    color:white;
+}
+
+.box-amarela {
     border-radius: 10px;
     height: 25px;
     width: 25px;
     background: #ffd700;
+}
+
+.box-cinza {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background: #808080;
+}
+
+.box-laranja {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background: #ffa500;
+}
+
+.box-marrom {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background: #8b4513;
+}
+
+.box-preto {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background: #000000;
+}
+
+.box-rosa {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background: #ffc0cb;
+}
+
+.box-roxo {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background: #9370db;
+}
+
+.box-verde {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background: #008000;
+}
+
+.box-vermelho {
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background: #ff0000;
+}
+
+.kit {
+    padding: 60px;
+    text-align: left;
+    font-size: medium;
+    h1 {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+}
+
+.lista-alimentacao {
+    list-style: none;
+    gap: 40px;
+    border: 2px dashed orange;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #f5ecd9;
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+.itens-avulsos {
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.pontos {
+    width: 100%;
+    border-collapse: collapse; /* remove os espaços entre as células */
+    margin-top: 20px;
+    background-color: #e9f7ef;
+    gap: 20px;
+    flex-wrap: wrap; 
+    th {
+        background-color: #0a285f; 
+        color: white;
+}
+}
+
+.suplementos {
+    background-color: #fae5e5;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #ae3727;
+}
+
+.marca {
+  strong {
+    color: #afad44;
+    font-size: 1.0rem;
+  }
+}
+
+.requisitos {
+   color: #afad44;
+   list-style: none;
+}
+
+.quinta-prova {
+    background-color: #faf9cd;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #afad44;
+}
+.memorias {
+    padding: 20px;
+    border-radius: 8px;
+    list-style: none;
+    color: #afad44;
+}
+
+.sexta-prova {
+    background-color: #faf9cd;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #afad44;
+}
+
+.acao-social {
+    padding: 20px;
+    border-radius: 8px;
+    list-style: none;
+    color: #afad44;
+}
+
+.album {
+    background-color: #faf9cd;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #afad44;
+}
+.integracao {
+    padding: 20px;
+    border-radius: 8px;
+    list-style: none;
+    color: #afad44;
 }
