@@ -297,3 +297,8 @@ th {
     list-style: none;
     color: #afad44;
 }
+
+tr :hover {
+    background-color: #e5e7eb;
+}
+
